@@ -1,0 +1,107 @@
+{{ if .Site.Params.contact.enable }}
+{{ "<!-- Start Contact Us -->" | safeHTML }}
+<section class="contact-us section" id="contact" style="color:lightgrey;">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="title text-center">
+                    {{ with .Site.Params.contact.topTitle }}<h4 style="color:white;">{{.}}</h4>{{ end }}
+                    {{ with .Site.Params.contact.title }}
+                    <h2 style="color:white;">{{.}}</h2>
+                    <span class="border"></span>
+                    {{ end }}
+                    {{ with .Site.Params.contact.subtitle }}<p>{{.}}</p>{{ end }}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {{ "<!-- Contact Form -->" | safeHTML }}
+            <div class=" col-12 col-md-3">
+            </div>
+            <div class="contact-form col-12 col-md-6">
+                <form id="contact-form" method="post" action="sendmail.php" role="form" autocomplete="on">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" class="form-control" name="name" id="name"
+                            style="color:lightgray;" required='required'>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" class="form-control" name="email" id="email"
+                            style="color:lightgray;" required='required'>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject"
+                            style="color:lightgray;" required='required'>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"
+                            style="color:lightgray;"></textarea>
+                    </div>
+
+                    <div id="mail-success" class="success">
+                        Thank you. The Mailman is on His Way :)
+                    </div>
+
+                    <div id="mail-fail" class="error">
+                        Sorry, don't know what happened. Try later :(
+                    </div>
+
+                    <div id="cf-submit">
+                        <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="address-block contact-meta-block" style="background-color:black;">
+                    <i class="tf-ion-android-pin"></i>
+                    <h4>Our Location</h4>
+                    {{ with .Site.Params.contact.address }}<p>{{ . | safeHTML }}</p>{{ end }}
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="phone-block contact-meta-block" style="background-color:black;">
+                    <i class="tf-ion-ios-telephone"></i>
+                    <h4>Call Us</h4>
+                    <p>
+                        {{ with .Site.Params.contact.phone }}Office: {{.}} {{ end }}
+                        <br> {{ with .Site.Params.contact.second }} Mobile: {{ . }} {{ end }}
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="social-icons-block contact-meta-block" style="background-color:black;">
+                    <i class="tf-ion-ios-contact"></i>
+                    <h4>We are social</h4>
+                    <ul class="list-inline social-icon">
+                        {{ with .Site.Params.contact.facebook }}
+                        <li class="list-inline-item">
+                            <a href="{{.}}">
+                                <i class="tf-ion-social-facebook"></i>
+                            </a>
+                        </li>
+                        {{ end }}
+                        {{ with .Site.Params.contact.twitter }}
+                        <li class="list-inline-item">
+                            <a href="{{.}}">
+                                <i class="tf-ion-social-twitter"></i>
+                            </a>
+                        </li>
+                        {{ end }}
+                        {{ with .Site.Params.contact.youtube }}
+                        <li class="list-inline-item">
+                            <a href="{{.}}">
+                                <i class="tf-ion-social-youtube"></i>
+                            </a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

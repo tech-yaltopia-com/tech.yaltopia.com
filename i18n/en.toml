@@ -1,0 +1,30 @@
+[about]
+other = "About"
+[video]
+other = "Videos"
+[service]
+other = "Services"
+[blog]
+other = "Blogs"
+[forum]
+other = "Our forum page"
+[contact]
+other = "Contact"
+
+
+[cont_us]
+other = "Contact us"
+
+[graphicdesign]
+other = "Graphic Design"
+[webdesign]
+other = "Web Design"
+[webdevelopment]
+other = "Web Development"
+
+[partners]
+other = "Partners"
+[faqs]
+other = "FAQ's"
+[badges]
+other = "Badges"

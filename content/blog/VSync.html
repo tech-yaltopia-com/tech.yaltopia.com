@@ -1,0 +1,86 @@
+---
+title: "VSync, what is it?"
+date: 2017-06-25
+lastmod: 2017-07-04
+image: images/blog/VSync.png
+draft: false
+tags: []
+author: Kerod Fresenbet
+---
+<div dir="ltr" style="text-align: left;" trbidi="on">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br>&nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br>
+    <div class="separator" style="clear: both; text-align: center;"><a
+            href="https://1.bp.blogspot.com/-tHfy0JUoKDI/WU_b6Enrp4I/AAAAAAAAAEw/Xskd--03BsgeXsKdYJi1fjnwc1QuJoAqgCLcBGAs/s1600/freesync_13.png"
+            imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="298"
+                data-original-width="700" height="136"
+                src="https://1.bp.blogspot.com/-tHfy0JUoKDI/WU_b6Enrp4I/AAAAAAAAAEw/Xskd--03BsgeXsKdYJi1fjnwc1QuJoAqgCLcBGAs/s320/freesync_13.png"
+                width="320" class="img-responsive"></a></div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br><br><br><br>&nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; What's V-Sync?<br><br><br><br>You might have asked yourself this question
+    many times if you are a gamer. The toggle to turn on Vsync on or off is prevalent in almost every game, the
+    technology has been there since the development of polychromatic televisions (color televisions) in the
+    1950's.<br><br><br><br><br>In order to define vertical sync, we need to look at another term called vertical blank
+    interval. The term vertical blank interval defines the duration of time between the final line of a frame and the
+    beginning of another frame. I am sure that most of you are aware of Cathode ray tubes or CRT's for short, CRT's are
+    vacuum tubes with electron guns at the back of them and phosphorescent screen at the front. The electron gun shoots
+    charges at phosphorescent screen and excites the phosphor dots on the screen giving them a glow which creates the
+    image that you enjoy on a television, the dots are excited consecutively from top to bottom and when the last
+    phosphor dot on the screen is excited (this forms one frame of an image) the gun then needs to zip back to the
+    original position and start over, the duration this takes is called the vertical blank interval. The gun zips back
+    up and starts all over again because the phosphor dots lose energy and stop glowing if the gun doesn't supply them
+    with continuous energy.<br><br><br><br>Therefore, we need to refresh the phosphor dots and how many times we refresh
+    them per unit time is called the 'refresh rate' which is another term you might have heard or read about if you are
+    into PC gaming. The duration or the Vertical blank interval allowed the computer or the CRT to prepare for the next
+    frame to be displayed on the screen. LCD's or liquid crystal displays do not need to refresh their pixels. When the
+    crystals in an LCD are electrically excited, they twist and allow the light to pass through and how much light they
+    allow to pass through determines the image displayed on the screen. The crystals remain in the twisted position
+    until they are told otherwise. &nbsp;The vertical blank synchronization is still there, however because the screens
+    need to remain backwards compatible with the graphics cards of the day and age. This is why many professionals in
+    the technology sector say that display technology is miles ahead of the graphics game. So now that we know what
+    vertical sync is, we can now appreciate its importance in the gaming world.<br><br><br><br>For a PC gamer, a
+    graphics card is an integral part of his gaming machine, a display is another integral part of his gaming machine
+    and how those to interact to form the picture of the games on your screen is where Vertical sync is concerned. When
+    your GPU (be it integrated or discreet) is processing a game in order to produce an output on your screen it stores
+    the image formed temporarily in what we call framebuffers, when the GPU finishes forming the image on the
+    framebuffer it can then transfer the image to a certain part of the GPU called the display circuitry. After the
+    frame has been transferred to the display circuitry it then travels via your HDMI cables, display cables, VGA or
+    even DVI cables to your screen to produce an image you can perceive. Vertical Sync is a technology that matches the
+    framerate of your game to the refresh rate of your monitor. So, if you have a 60HZ monitor, Vsync will lock your
+    frame rate to 60fps which translates to 60 images shown on your screen per second.<br><br><br><br><br>Why is this
+    important?<br>Sometimes GPUs are very fast and can form images faster than the conventional 60HZ and therefore can
+    output images faster than 60HZ, but since your monitor can only display 60HZ the other frames are only wasted and
+    serve no purpose in most cases (there are exceptions of course). So, when the GPU is transferring those images and
+    since the GPU is transferring said images at a much faster rate than what can be displayed on a monitor the image
+    can sometimes get distorted and screen tearing will occur. But there is also another case where your GPU is not fast
+    enough to transfer the images to the screen. So, if your monitor has a refresh rate of 60HZ and your GPU is only
+    capable of 30fps on a certain game, then the GPU will lag when compared to the refresh rate of your monitor.<br>The
+    graphics card will have more than one framebuffer of course, in most cases it will have a primary and a secondary
+    buffer, this is done because when the display circuitry reads the image formed in the buffer the GPU can’t work in
+    that buffer and therefore offloads the processed image onto another buffer called the secondary buffer. When the
+    display circuitry is done with reading the image in the primary buffer, it will move to the secondary buffer, and so
+    forth. But in the case where the GPU is slow and can’t form the image in time, the display circuitry is forced to
+    send the image again to the screen; this is what gamers experience as stuttering on their screens.<br><br><br>So how
+    does Vsync rectify this issue? Vsync tries to limit the framerate you are getting to get a more stable gameplay
+    experience and that is important for most gamers, but you won’t get any higher fps than what Vsync limits the
+    framerate to which is another hindrance in the gameplay experience. Vsync has many advantages, but it also carries
+    disadvantages.<br>Pros:<br>•<span class="Apple-tab-span" style="white-space: pre;"> </span>It allows for a more
+    fluid experience while gaming, by avoiding screen tearing and artifacting.<br>•<span class="Apple-tab-span"
+        style="white-space: pre;"> </span>It reduces the temperature of your GPU, because it lowers the speed at which
+    the GPU operates.<br>Cons:<br>•<span class="Apple-tab-span" style="white-space: pre;"> </span>It introduces a lag in
+    the gameplay for inputs like keyboard and mouse inputs, usually noticed in competitive scenarios.<br>•<span
+        class="Apple-tab-span" style="white-space: pre;"> </span>It is inapplicable in cases where your GPU cannot
+    produce a framerate correspondent to your screen’s refresh rate in which case it creates stutters and this renders
+    the entire purpose of the technology mute.<br>Verdict<br>I am a PC gamer and I play mostly competitive games like
+    Call of Duty, Battlefield and other shooters where even a millisecond of lag can get you killed. I have a monitor
+    with a 75HZ refresh rate and I never use Vsync because it hinders my ability in the game. If you are like me and
+    play shooters for the most part, I do not recommend you use Vsync. But for people who play single player games,
+    RPG’s or any other game where a tiny amount of lag makes no difference and you have a graphics card capable of
+    matching your screen’s refresh rate, Vsync can be a God send. I will be writing reviews on Gsync, adaptive Vsync,
+    Fast Sync and Free Sync and I will be comparing and contrasting them to each other. So, stay tuned!<br>This is Kerod
+    with ICTet, signing off.<br>
+    <div><br></div>
+</div>

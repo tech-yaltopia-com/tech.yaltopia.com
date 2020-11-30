@@ -1,0 +1,39 @@
+enable: true
+topTitle: TEAM MEMBER
+title: Our Team.
+subtitle: Say Hello to our Team!
+
+member:
+  - image: images/team/Kerod.png
+    name: Kerod Fresenbet
+    designation: Manager / Head Editor / Developer
+    description: kerod-gebremedhin@yaltopia.com
+    facebookURL: https://www.facebook.com/
+    twitterURL: https://twitter.com/
+    telegramURL: https://www.t.me/KerodGebremedhin
+
+  - image: images/team/Kirubel.png
+    name: Kirubel Kibru
+    designation: Manager / Writer / Developer
+    description: kirubel-mesfin@yaltopia.com
+    facebookURL: https://www.facebook.com/kirubel.kibru.7
+    twitterURL: https://twitter.com/KibruKirubel
+    gplusURL: https://www.instagram.com/kirukib/
+    telegramURL: https://www.t.me/YoungTilahun
+
+  - image: images/team/Mike.png
+    name: Mikias Tenalem
+    designation: Community Manager / Writer
+    description: mikias-ayanew@yaltopia.com
+    facebookURL: https://www.facebook.com/
+    twitterURL: https://twitter.com/
+    gplusURL: https://www.instagram.com/mike_0787/
+    telegramURL: https://www.t.me/Darkest_Avenger
+
+  - image: images/team/Yared.png
+    name: Yared Girma
+    designation: Head Editor / Developer
+    description: yared-deyaso@yaltopia.com
+    facebookURL: https://www.facebook.com/profile.php?id=100006166784895
+    twitterURL: https://twitter.com/
+    telegramURL: https://www.t.me/KuntaSensei

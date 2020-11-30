@@ -1,0 +1,31 @@
+{{ with .Site.Data.video }}
+    {{ if .enable }}
+    {{ "<!-- Video Section Start -->" | safeHTML }}
+		<section class="video-library" > 
+			<div class = "container gallery">
+				<div class="row justify-content-center">
+						{{ range .Video }}
+							<div class="col-12 col-md-6 col-sm-6 vid">
+								<div class="video-player">
+									<img class="img-fluid rounded hundred" src="{{ with .Thumbvideo }}{{.| absURL }}{{ end }}" alt="video-thumb">
+									<a class="play-icon hundred" href="javascript:void(0)">
+										<i class="tf-ion-play middle" data-video="{{ with .URLvideo }}{{.}}{{ end }}?autoplay=1"></i>
+									</a>
+								</div>
+							
+								<div  class="col-12 col-md-12 col-sm-12">
+									<h5 style="color:lightgray;">{{ .title }}</h5>
+								</div>
+							
+							{{ "<!-- video -->" | safeHTML }}
+							</div>
+						{{ end }}
+					
+
+				</div>
+			</div>
+		</section>
+		{{ "<!-- End section -->" | safeHTML }}
+	{{ end }}
+{{ end }}
+

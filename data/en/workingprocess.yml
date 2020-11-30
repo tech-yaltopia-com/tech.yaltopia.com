@@ -1,0 +1,28 @@
+enable  : true
+topTitle: HOW WE WORK
+title   : Our Work Process
+subtitle: “The future depends on what you do today.” - Mahatma Gandhi
+item    :
+  - number  : 1
+    icon    : tf-ion-ios-briefcase-outline
+    title   : Project Analysis
+    description : >
+      Project analysis will be used to estimate the economic or engineering viability of a projects by performing an analysis on the  performance, maintenance and/or improvement of the product.
+
+  - number  : 2
+    icon    : tf-ion-ios-alarm-outline
+    title   : Time Management
+    description : >
+      The most fundamental premise of effective time management is differentiating what is important and what is urgent. That's why we make it our goal to organize and prioritize our goals for every project we work on. 
+
+  - number  : 3
+    icon    : tf-ion-ios-email-outline
+    title   : Mail Support
+    description : >
+      Email support is a way we make it convenient for our customers to communicate with us : the customer can send an email message at their convenience, and we will do our best to respond as quickly as possible.
+
+  - number  : 4
+    icon    : tf-ion-ios-locked-outline
+    title   : Secure System
+    description : >
+      Secure system development life-cycle (SSDL) is a set of activities performed to develop and deliver a secure software solution . We go through the following seven stages training, requirements, design, implementation, verification, release and response to deliver a secure product. 

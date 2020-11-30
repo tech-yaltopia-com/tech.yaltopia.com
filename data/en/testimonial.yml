@@ -1,0 +1,25 @@
+enable : true
+item    :
+  - quote       : >
+      "I do not fear computers. I fear lack of them."
+    clientThumb : images/client-logo/P1.png 
+    clientName  : Isaac Asimov
+    clientDesignation:  American Writer and Professor of Biochemisty 
+
+  - quote       : >
+     "Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution."
+    clientThumb : images/client-logo/P2.png
+    clientName  : Albert Einstein
+    clientDesignation: Theoretical physicist
+
+  - quote       : >
+      "Tell me and I forget. Teach me and I remember. Involve me and I learn."
+    clientThumb : images/client-logo/P3.png
+    clientName  : Benjamin Franklin
+    clientDesignation: Founding Father of the United States
+
+  - quote       : >
+     "EDUCATION IS THE MOST POWERFUL WEAPON WHICH YOU CAN USE TO CHANGE THE WORLD."
+    clientThumb : images/client-logo/P4.png
+    clientName  : Nelson Mandela
+    clientDesignation: Former President of South Africa

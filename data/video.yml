@@ -1,0 +1,21 @@
+enable    : true
+title     : look at our currently released videos
+description: >
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolorem, saepe ab, optio obcaecati id asperiores. Ab ullam qui architecto at eos distinctio debitis, libero reprehenderit excepturi rem ut odit est nam magni ratione necessitatibus, quod eaque, eius minima tempora deleniti illum aliquam! Perferendis optio dolorum blanditiis sapiente aperiam quaerat.
+image     : images/about/about-1.jpg
+Video:
+  - Thumbvideo   : images/slider/video-thumb.jpg
+    URLvideo     : https://www.youtube.com/embed/SJRIORWkE0w
+    title        : iPhone 12 | Xbox Series X | PS5 --- Yaltopya Tech Podcast Episode 6
+    
+  - Thumbvideo   : images/videothumbs/logo.jpg
+    URLvideo     : https://www.youtube.com/embed/xaw3FGBDXUU
+    title        : Xbox Series X and PS5 Discussion| Tech Cast| Episode 5
+    
+  - Thumbvideo   : images/videothumbs/logo2.jpg
+    URLvideo     : https://www.youtube.com/embed/O0IVxc68Gh0
+    title        : Tech News | Bethesda Acquired by Microsoft & IOS 14!
+    
+  - Thumbvideo   : images/videothumbs/logo3.jpg
+    URLvideo     : https://www.youtube.com/embed/is1YdVwuyYg
+    title        : Xbox Series X/S v PS5/ADE | Who will win the Console Wars? | Sony vs Microsoft! | Tech Cast Ep 4

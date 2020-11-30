@@ -1,0 +1,21 @@
+enable    : true
+title     : We care about our work
+description: >
+  Project analysis will be used to estimate the economic or engineering viability of a projects by performing an analysis on the  performance, maintenance and/or improvement of the product.
+image     : images/about/about-3.png
+servicelist:
+  - name    : Creative Designers
+  - name    : Genius Developers
+  - name    : Growth Hackers
+  - name    : Marketing Masterminds
+clientLogo:
+  - image   : images/client-logo/1.png
+  - image   : images/client-logo/2.png
+  - image   : images/client-logo/3.png
+  - image   : images/client-logo/4.png
+  - image   : images/client-logo/5.png
+  - image   : images/client-logo/2.png
+  - image   : images/client-logo/1.png
+  - image   : images/client-logo/4.png
+  - image   : images/client-logo/5.png
+  - image   : images/client-logo/3.png

@@ -1,0 +1,12 @@
+enable  : true
+item    :
+  - positionRight : false
+    image : images/about/about-12.png 
+    title : Connecting Ethiopia
+    description : >
+      It is our goal in this day and age to help introduce more people to technology. The constant change in the tech world influences and changes everyone’s life with or without them realizing it. But this change can be both for good or for bad. Our goal is for the change to bring a positive impact to your lives. To satisfy this goal, a well-informed and connected community is needed. We as a platform will strive to create said community and bridge the gap forming between people and technology by creating a safe space for people to communicate, consume content and keep getting informed.  
+  - positionRight : true
+    image : images/about/about-24.png
+    title : Innovation
+    description : >
+      In life, we always look for something that can help us lead better lives. Innovation is one of those ways where humans try to think outside of the box to explore new possibilities. That’s why as a platform, we always discuss ideas no matter what they encompass. The worst enemy to innovation is the thought of failure and so we want to encourage more people to try to stand out and discuss ideas with us. Hopefully our platform will encourage people to innovate and push limits as far as they can go.

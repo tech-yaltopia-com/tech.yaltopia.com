@@ -1,0 +1,16 @@
+enable  : true
+item  :
+  - icon  : tf-ion-ios-analytics-outline
+    title : Innovate
+    description : >
+     “If at first the idea is not absurd, then there is no hope for it.“ - Albert Einstein
+
+  - icon  : tf-ion-ios-cog-outline
+    title : Create
+    description : >
+     "Creativity involves breaking out of expected patterns in order to look at things in a different way." - Edward de Bono
+
+  - icon  : tf-ion-ios-book-outline
+    title : Teach
+    description : >
+     “An investment in knowledge pays the best interest” – Benjamin Franklin 

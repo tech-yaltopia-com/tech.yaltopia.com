@@ -1,0 +1,24 @@
+enable    : true
+topTitle   : LITTLE MORE BRIEF
+title     : About Us.
+subtitle  : Want to know more about What we do , How we do , and Why we do it ?
+tabItem   :
+  - id        : philosophy
+    title     : Our Philosophy
+    heading   : Innovate, Create, and Teach!  
+    content   : >
+      It is our goal in this day and age to help introduce more people to technology. The constant change in the tech world influences and changes everyone’s life with or without them realizing it. But this change can be both for good or for bad. Our goal is for the change to bring a positive impact to your lives. <br> <br> To satisfy this goal, a well-informed and connected community is needed. We as a platform will strive to create said community and bridge the gap forming between people and technology by creating a safe space for people to communicate, consume content and keep getting informed.  
+    image     : images/company/I1.png
+  - id        : mission
+    title     : Mission
+    heading   : Creating a Community
+    content   : >
+     We want to be a platform that solves problems. We want to introduce you to technology that can change your life. This is one of the core ideas of our organization- “To make problems a possibility for improvement.”  That also means we want to enable innovators as well as introduce you to our products which we will be making in the foreseeable future. <br> <br> We want our reach to be global but we humble ourselves because we want to change the continent first, which is Africa. In accordance with various plans being executed across Africa, we believe the next big thing will come from our soil. We will make sure we are one of the driving factors that will shape this dream into reality! 
+    image     : images/company/I2.png
+
+  - id        : vision
+    title     : Vision
+    heading   : Inspire Africa
+    content   : >
+      To create a platform where we can improve people’s lives through technology. One of the projects we have set out to work on is a platform where you can consume, learn, and share technology related content. <br> <br> We have a various stretch of products we work on but the vision is to keep improving what we have and change what doesn’t work! We are also working towards giving a voice to those who use the products being made. With a lot of hard work and dedication, this will make us a company that can help the human race take the next big step for a better future. 
+    image     : images/company/I3.png

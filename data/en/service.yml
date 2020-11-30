@@ -1,0 +1,27 @@
+enable    : true
+topTitle  : A LIST OF SERVICES
+title     : Our Service.
+subtitle  : We provide a wide variety of services the only thing we want you to come up with is a problem. We shall provide you with a solution!
+item      :
+  - icon  : tf-ion-ios-analytics-outline
+    title : Developement
+    list  :
+      - name : Web Design
+      - name : App Development
+      - name : Product Design
+      - name : Advertisement Campaign Development  
+
+  - icon  : tf-ion-ios-cog-outline
+    title : Writing & Marketing
+    list  :
+      - name : Company Profile
+      - name : Digital Marketing 
+      - name : Sponsored Articles
+      - name : 
+
+  - icon  : tf-ion-ios-book-outline
+    title : Video Production
+    list  :
+      - name : Product Use Tutorials 
+      - name : Product Reviews
+      - name : Sponsored Content
