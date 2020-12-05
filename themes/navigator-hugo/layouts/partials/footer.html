@@ -29,9 +29,10 @@
                 </div>
                 <div class="col-sm-3 col-md-3 col-lg-3">
                     <h3>{{ .Site.Params.footerSubscribeTitle }}</h3>
-                    <form class="subscribe-form">
+                    <form class="subscribe-form" action="newsletter.php" method="POST">
                         <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
                         </div>
                         <button type="submit" class="btn btn-main-sm">Subscribe Now</button>
                     </form>
@@ -41,7 +42,7 @@
     </div>
     <div class="footer-bottom">
         <h5>Copyright 2020. All rights reserved.</h5>
-        <h6>Design and Developed by Yaltopia Tech
+        <h6>Designed and Developed by Yaltopia Tech
             <br>Get More
             <a href="#Home" target="_blank">Yaltopia</a>
         </h6>
@@ -76,41 +77,42 @@
 {{ if site.Params.cookies.enable }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
 <div id="js-cookie-box" class="cookie-box cookie-box-hide">
-	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-outline-primary ml-2">I Accept</span>
+    This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button"
+        class="btn btn-sm btn-outline-primary ml-2">I Accept</span>
 </div>
 <script>
-	(function ($) {
-		const cookieBox = document.getElementById('js-cookie-box');
-		const cookieButton = document.getElementById('js-cookie-button');
-		if (!Cookies.get('cookie-box')) {
-			cookieBox.classList.remove('cookie-box-hide');
-			cookieButton.onclick = function () {
-				Cookies.set('cookie-box', true, {
-					expires: {{ site.Params.cookies.expire_days }}
-				});
-				cookieBox.classList.add('cookie-box-hide');
-			};
+    (function ($) {
+        const cookieBox = document.getElementById('js-cookie-box');
+        const cookieButton = document.getElementById('js-cookie-button');
+        if (!Cookies.get('cookie-box')) {
+            cookieBox.classList.remove('cookie-box-hide');
+            cookieButton.onclick = function () {
+                Cookies.set('cookie-box', true, {
+                    expires: {{ site.Params.cookies.expire_days }}
+        });
+        cookieBox.classList.add('cookie-box-hide');
+    };
 		}
-	})(jQuery);
+	}) (jQuery);
 </script>
 
 <!-- cookie style -->
 <style>
-.cookie-box {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  z-index: 9999;
-  padding: 1rem 2rem;
-  background: rgb(71, 71, 71);
-  transition: all .75s cubic-bezier(.19, 1, .22, 1);
-  color: #fdfdfd;
-}
+    .cookie-box {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        z-index: 9999;
+        padding: 1rem 2rem;
+        background: rgb(71, 71, 71);
+        transition: all .75s cubic-bezier(.19, 1, .22, 1);
+        color: #fdfdfd;
+    }
 
-.cookie-box-hide {
-  display: none;
-}
+    .cookie-box-hide {
+        display: none;
+    }
 </style>
 {{ end }}

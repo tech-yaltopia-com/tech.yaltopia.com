@@ -1,4 +1,4 @@
-baseURL = "https://github.com/tech-yaltopia-com.github.io"
+baseURL = "https://tech.yaltopia.com"
 languageCode = "en-us"
 title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
 theme = "navigator-hugo"
@@ -20,7 +20,7 @@ logo = "images/logo.png"
 
 # Gestion des langues : FR / EN / NL / DE
 [[Params.listeLangues]]
-code = "fr"
+code = "amh"
 
 [[Params.listeLangues]]
 code = "en"
@@ -31,50 +31,53 @@ description = "This is meta description"
 # Gestion des langues : FR / EN / NL / DE
 [Languages]
 
-############ 1 - Site en FRANCAIS
-[Languages.fr]
+############ 1 - Site en Amh
+[Languages.amh]
 weight = 1
-languageCode = "Fr-fr"
+languageCode = "Amh-amh"
 title = "YaltopyaTech"
 dateFormat = "2 January 2006"
 home = "Home"
 logo = "images/Fixed1.png"
 menufixed = false
-footerDescription = "FRANCAIS Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
-footerServiceTitle = "FRANCAIS Services"
-footerQuicklinkTitle = "FRANCAIS Quick links"
-footerAboutTitle = "FRANCAIS About"
-footerSubscribeTitle = "FRANCAIS Subscribe"
+footerDescription = ""
+footerServiceTitle = ""
+footerQuicklinkTitle = ""
+footerAboutTitle = ""
+footerSubscribeTitle = "በቅርብ ቀን"
 
 # Hero Area Section
-[Languages.fr.params.hero]
-enable = true
-heading = "FRANCAIS We love to make brands grow"
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
+[Languages.amh.params.hero]
+enable = false
+heading = ""
+description = ""
 button = true
-btnText = "Subscribe"
+btnText = "በቅርብ ቀን"
 btnURL = "https://www.youtube.com/channel/UC_4173FO268_5MMJMZAoo6A"
 videoThumb = "images/slider/video-thumb.jpg"
 videoURL = "https://www.youtube.com/embed/SJRIORWkE0w"
 
 # About 2 Section
-[Languages.fr.params.aboutSm]
+[Languages.amh.params.aboutSm]
+enable = false
+title = ""
+description = ""
+[Languages.amh.params.ComingSoon]
 enable = true
-title = "FRANCAIS We have explored the digital landscape with passion for a long time"
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste soluta, nihil dolorem?"
-
+title = ""
+description= "በቅርቡ በአማርኛ እንቀርባለን።"
 # Blog Section On Homepage
-[Languages.fr.params.blog]
-enable = true
+[Languages.amh.params.blog]
+enable = false
 topTitle = "OUR UNTOLD STORY"
-title = "FRANCAIS Blog."
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+title = ""
+subtitle = ""
 
 # Contact Section
-[Languages.fr.params.contact]
-enable = true
+[Languages.amh.params.contact]
+enable = false
 topTitle = "DROP US A NOTE"
-title = "FRANCAIS Contact Us."
+title = "Contact Us."
 subtitle = ""
 address = "We're working on it :)"
 phone = " +2519 2903 3293"
@@ -87,12 +90,12 @@ mapLongitude = "-0.127758"
 mapMarker = "images/marker.png"
 
 # Call to Action Section on About Page
-[Languages.fr.params.cta]
-enable = true
+[Languages.amh.params.cta]
+enable = false
 bg = "images/call-to-action/call-to-action-bg-2.jpg"
-title = "FRANCAIS Let's Create Something Together"
-subtitle = "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
-btnText = "Nous contacter"
+title = ""
+subtitle = ""
+btnText = ""
 
 ############# 2 - Site en ENGLISH
 [Languages.en]
@@ -147,7 +150,7 @@ subtitle = "Please Feel Free to Drop Us a Note!"
 address = "We're working on it :)"
 phone = " +2519 2903 3293"
 second = " +2519 8303 2475"
-facebook = "https://www.facebook.com/Yaltopya"
+facebook = "https://www.facebook.com/Yaltopia"
 twitter = "https://twitter.com/yaltopyatech"
 youtube = "https://www.youtube.com/channel/UC_4173FO268_5MMJMZAoo6A"
 mapLatitude = "38.7624143"
@@ -189,7 +192,7 @@ weight = 5
 
 [[menu.nav]]
 name = "forum"
-url = "https://forum.tech.yaltopia.com/phpbb/"
+url = "https://forum-tech.yaltopia.com/phpbb/"
 weight = 6
 
 [[menu.nav]]
@@ -215,7 +218,7 @@ weight = 3
 
 [[menu.places]]
 name = "forum"
-url = "https://forum.tech.yaltopia.com/phpbb/"
+url = "https://forum-tech.yaltopia.com/phpbb/"
 weight = 4
 
 # Footer Quick links Menu
